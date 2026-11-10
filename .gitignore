@@ -1,0 +1,31 @@
+# =============================================================================
+# Git Ignore File: Synchronous FIFO Memory Design
+# =============================================================================
+
+# Vivado generated project databases and temporary directories
+.Xil/
+sim_work/
+synth_work/
+reports/
+
+# Vivado log and journal files
+*.jou
+*.log
+*.str
+*.pb
+*.dcp
+
+# Vivado simulator artifacts
+xsim.dir/
+xsim*.backup.*
+webtalk*.log
+webtalk*.xml
+
+# Windows and OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor and IDE directories
+.vscode/
+.idea/
